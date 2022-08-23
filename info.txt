@@ -1,0 +1,8 @@
+git config --global user.name "Nayan Ranjane"
+git config --global user.email "nayan.ranjane@coditas.com"
+
+git init --initial-branch=main
+git remote add origin git@gitlab.com:nayan-coditas/assignment01-responsive_web_design.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
